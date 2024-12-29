@@ -31,7 +31,8 @@ I will deploy and configure osTicket in this home lab on an Azure Windows VM to 
 ### 4. Install / Enable IIS with CGI Support
 - Go to **World Wide Web Services -> Application Development Features** and ensure **CGI** is selected.
   
- ![image](https://github.com/user-attachments/assets/90d414e6-d8fb-4aaf-9207-798de15be31c)
+![image](https://github.com/user-attachments/assets/c6b053c2-5700-4c4e-b2b7-2db3094b37c5)
+
 
 
 
