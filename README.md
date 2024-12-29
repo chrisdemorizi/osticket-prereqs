@@ -77,13 +77,16 @@ I will deploy and configure osTicket in this home lab on an Azure Windows VM to 
 - Register PHP from within IIS: **PHP Manager -> C:\PHP\php-cgi.exe**.
 - Reload IIS by stopping and starting the server.
   
-  ![image](https://github.com/user-attachments/assets/8903891c-5207-4e23-8db5-16b054bc127a)
+  ![image](https://github.com/user-attachments/assets/a0423af6-486f-4585-b822-60d49b961e9b)
+
+
 
 ### 10. Install osTicket v1.15.8
 - From the “osTicket-Installation-Files” folder, unzip **osTicket-v1.15.8.zip** and copy the **upload** folder to **C:\inetpub\wwwroot**.
 - Rename the folder to **osTicket** (Ensure there are no spaces in the name).
   
-  ![image](https://github.com/user-attachments/assets/a6deb705-b040-4d2e-84e3-3df38573efee)
+  ![image](https://github.com/user-attachments/assets/1995f716-ead8-46b6-9886-6652fab32fbd)
+
 
 ### 11. Enable PHP Extensions
 - Go back to IIS -> **Sites -> Default -> osTicket**.
