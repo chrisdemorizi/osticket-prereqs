@@ -43,6 +43,8 @@ I will deploy and configure osTicket in this home lab on an Azure Windows VM to 
 ### 5. Install PHP Manager for IIS
 - From the “osTicket-Installation-Files” folder, install **PHP Manager for IIS** (PHPManagerForIIS_V1.5.0.msi).
 
+![image](https://github.com/user-attachments/assets/b92eaa4a-0dcb-469d-9147-f4dd2c43f7aa)
+
 ### 6. Install the Rewrite Module
 - Install the **Rewrite Module** (rewrite_amd64_en-US.msi).
   
