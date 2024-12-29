@@ -48,11 +48,16 @@ I will deploy and configure osTicket in this home lab on an Azure Windows VM to 
 ### 6. Install the Rewrite Module
 - Install the **Rewrite Module** (rewrite_amd64_en-US.msi).
   
-  ![image](https://github.com/user-attachments/assets/82d4fbb2-7b27-4dec-bde2-b1eb3b955c56)
+  ![image](https://github.com/user-attachments/assets/85abece6-580e-408c-80b7-a514feea24ca)
+
 
 ### 7. Set Up PHP Folder
 - Create the directory **C:\PHP**.
 - Unzip **PHP 7.3.8** (php-7.3.8-nts-Win32-VC15-x86.zip) into **C:\PHP**.
+
+![image](https://github.com/user-attachments/assets/c58995fa-b7e7-4c7e-908d-d8a3fe09d4d1)
+
+
 
 ### 8. Install Required Software
 - From the “osTicket-Installation-Files” folder, install **VC_redist.x86.exe** and **MySQL 5.5.62** (mysql-5.5.62-win32.msi).
@@ -61,8 +66,11 @@ I will deploy and configure osTicket in this home lab on an Azure Windows VM to 
     - **Username:** root
     - **Password:** root
   
-  ![image](https://github.com/user-attachments/assets/98694b9b-5135-4060-bc5c-25bbae30d022)
-  ![image](https://github.com/user-attachments/assets/f2fd4b36-8754-4115-bf33-7621e90400db)
+  ![image](https://github.com/user-attachments/assets/bb456b09-3a14-44c4-962f-c2c58bf19015)
+
+
+  ![image](https://github.com/user-attachments/assets/4670429f-5a09-4d06-80c8-652e09488b65)
+
 
 ### 9. Register PHP with IIS
 - Open IIS as an admin.
