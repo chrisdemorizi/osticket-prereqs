@@ -97,8 +97,9 @@ I will deploy and configure osTicket in this home lab on an Azure Windows VM to 
 
   Refresh the site in your browser.
 
-  ![image](https://github.com/user-attachments/assets/339a5e34-91a5-425c-ad1d-0e237546eef3)
-  ![image](https://github.com/user-attachments/assets/d3d1fd8c-b238-441f-9af6-57d599fdf757)
+  ![image](https://github.com/user-attachments/assets/68f7de09-c176-40fa-8bf3-2680e89b5b18)
+  ![image](https://github.com/user-attachments/assets/604ae332-dfbc-4c90-8526-4f78e6e93fc4)
+
 
 ### 12. Rename `ost-sampleconfig.php` to `ost-config.php`
 - Navigate to **C:\inetpub\wwwroot\osTicket\include** and rename **ost-sampleconfig.php** to **ost-config.php**.
