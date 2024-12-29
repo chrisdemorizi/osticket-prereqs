@@ -33,6 +33,10 @@ I will deploy and configure osTicket in this home lab on an Azure Windows VM to 
   
 ![image](https://github.com/user-attachments/assets/c6b053c2-5700-4c4e-b2b7-2db3094b37c5)
 
+- Confirming IIS is enabled.
+  
+![image](https://github.com/user-attachments/assets/c2594daa-0444-4d74-83d7-080d338460b9)
+
 
 
 
