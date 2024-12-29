@@ -104,13 +104,13 @@ I will deploy and configure osTicket in this home lab on an Azure Windows VM to 
 ### 12. Rename `ost-sampleconfig.php` to `ost-config.php`
 - Navigate to **C:\inetpub\wwwroot\osTicket\include** and rename **ost-sampleconfig.php** to **ost-config.php**.
   
-  ![image](https://github.com/user-attachments/assets/d0c73f6e-5eb6-43d7-bc10-b5a931a6a5e5)
+  ![image](https://github.com/user-attachments/assets/0e64c4fc-b0b8-405f-86d0-5357dc20d28c)
 
 ### 13. Set Permissions for `ost-config.php`
 - Right-click on **ost-config.php**, disable inheritance, remove all permissions, and grant **Everyone** full control.
   
-  ![image](https://github.com/user-attachments/assets/0b6dae00-7939-48b7-8195-da8f01e9aa42)
-  ![image](https://github.com/user-attachments/assets/d1cba096-b86b-4014-a210-9994f2b738b7)
+  ![image](https://github.com/user-attachments/assets/bf7016d5-f73f-431c-a801-81f028e3a6bd)
+  ![image](https://github.com/user-attachments/assets/1e98a9dd-d78c-490c-8a16-92022c72c560)
 
 ### 14. Continue osTicket Setup in the Browser
 - Access the setup page via **http://localhost/osTicket/scp/login.php**.
@@ -118,13 +118,13 @@ I will deploy and configure osTicket in this home lab on an Azure Windows VM to 
   - **Name Helpdesk**
   - **Default email** (receives emails from customers)
 
-  ![image](https://github.com/user-attachments/assets/cbc952f9-c638-4884-9aec-418cd252cbda)
+  ![image](https://github.com/user-attachments/assets/1a69d2c3-d805-44cf-ac50-74ad31d20987)
 
 ### 15. Set Up the MySQL Database
 - Open **HeidiSQL** and create a session using the username and password: **root/root**.
 - Create a new database called **osTicket**.
 
-  ![image](https://github.com/user-attachments/assets/75461acc-ed86-48f3-908c-7445d473c420)
+  ![image](https://github.com/user-attachments/assets/129371c5-8930-4565-a1fc-df9587340ff6)
 
 ### 16. Complete osTicket Setup
 - In the browser, configure MySQL details:
@@ -133,17 +133,16 @@ I will deploy and configure osTicket in this home lab on an Azure Windows VM to 
   - **MySQL Password:** root
 - Click **Install Now!**.
 
-  ![image](https://github.com/user-attachments/assets/e37438f7-9617-4072-9866-3e3a61030e76)
-  ![image](https://github.com/user-attachments/assets/11ecc5ea-ff67-4870-9727-90e9902f2a80)
+  ![image](https://github.com/user-attachments/assets/a894b727-2060-465f-8fd5-2379b10905ea)
 
 ### 17. Access osTicket
 - Once installed, access the help desk login page: **http://localhost/osTicket/scp/login.php**.
 
-  ![image](https://github.com/user-attachments/assets/0a1204e0-dd8e-41b5-9f0b-f2e4cbe96d49)
+  ![image](https://github.com/user-attachments/assets/40adf596-19a8-49e2-a1c5-0cf33d87c342)
 
 - End User's osTicket URL: **http://localhost/osTicket/**.
 
-  ![image](https://github.com/user-attachments/assets/dbe09db6-b0a5-44e2-b119-2611b7a46093)
+  ![image](https://github.com/user-attachments/assets/d952147f-0109-424b-8c83-4ab298f5019d)
 
 ## Takeaways and Key Skills Developed
 
